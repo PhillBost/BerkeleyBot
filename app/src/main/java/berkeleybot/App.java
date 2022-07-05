@@ -31,7 +31,7 @@ public class App extends ListenerAdapter{
         //setup neural network
         
 
-        JDABuilder builder = JDABuilder.createDefault("OTkyNDQ2MDI0NDYxMzIwMzMz.GVtLeI.vaaGvRwpuL6xCYFfwYvBis-G1HNQb1fpxRt6Tc");
+        JDABuilder builder = JDABuilder.createDefault("TOKEN :)");
 
         builder.setActivity(Activity.watching("Berkeley"));
         builder.addEventListeners(new App());
